@@ -2,6 +2,13 @@
     --white: #FFF;
     --periwinkle: #C5C7F7;
     --savoy-blue: #6C6EB8;
+
+    --font: 'Lexend', sans-serif;
+
+    --semibold: 600;
+    --regular: 400;
+    --medium: 500;
+    --light: 300;
 }
 
 body {
