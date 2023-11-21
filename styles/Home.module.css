@@ -16,6 +16,10 @@
   height: 615px;
   width: 100vw;
   background-color: var(--white);
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .press {
   height: 583px;
@@ -36,3 +40,15 @@
   gap: 8rem;
   margin-top: 2rem;
 }
+.featuresTitle {
+  font-family: var(--font);
+  font-weight: var(--semibold);
+  color: var(--midnight-blue);
+  font-size: 32px;
+}
+.headerContainer {
+  display: flex;
+  justify-content: flex-start;
+  width: 1000px;
+}
+

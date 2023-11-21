@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css'
 
 import Footer from '@/components/Footer'
 import SignUp from '@/components/SignUp'
+import KeyFeatures from '@/components/KeyFeatures'
 
 
 export default function Home() {
@@ -37,7 +38,10 @@ export default function Home() {
           <div className={styles.box}></div>
         </div>
         <div className={styles.keyFeatures}>
-
+          <div className={styles.headerContainer}>
+            <h2 className={styles.featuresTitle}>Innersight Key Features</h2>
+          </div>
+          <KeyFeatures />
         </div>
         <div className={styles.press}>
 

@@ -1,0 +1,24 @@
+.featuresContainer {
+    width: 1000px;
+    height: 537px;
+    background-color: var(--light-periwinkle);
+    border-radius: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.whiteBox {
+    width: 175px;
+    height: 215px;
+    background-color: var(--white);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature {
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
+}
