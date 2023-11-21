@@ -2,6 +2,18 @@
     --white: #FFF;
     --periwinkle: #C5C7F7;
     --savoy-blue: #6C6EB8;
+    --light-lavendar: #F2F2FD;
+    --midnight-blue: #2D3180;
+    --red: #E83131;
+    --tropical-indigo: #7E82F2;
+    --light-periwinkle: #E1E2F9;
+
+    --font: 'Lexend', sans-serif;
+
+    --semibold: 600;
+    --regular: 400;
+    --medium: 500;
+    --light: 300;
 }
 
 body {
