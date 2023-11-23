@@ -1,5 +1,4 @@
 import styles from './KeyFeatures.module.css'
-import Link from 'next/link'
 import Image from 'next/image'
 
 export default function KeyFeatures() {
@@ -15,7 +14,7 @@ export default function KeyFeatures() {
                     />
                 </div>
                 <h3>Personalized Recommendations</h3>
-                <p>Lorem ipsum dolor sit amet consectetur. Fusce adipiscing ornare tincidunt</p>
+                <p>View recommendations  based on your entries that can empower and guide your journey.</p>
             </div>
             <div className={styles.feature}>
                 <div className={styles.whiteBox}>
@@ -27,7 +26,7 @@ export default function KeyFeatures() {
                     />
                 </div>
                 <h3>AI Generated Insights</h3>
-                <p>Lorem ipsum dolor sit amet consectetur. Fusce adipiscing ornare tincidunt viverra ornare urna ut ut ut.</p>
+                <p>Our AI can provide a unique lens about your thoughts and feelings.</p>
             </div>
             <div className={styles.feature}>
                 <div className={styles.whiteBox}>
@@ -39,7 +38,7 @@ export default function KeyFeatures() {
                     />
                 </div>
                 <h3>Emotional Insights Report</h3>
-                <p>Lorem ipsum dolor sit amet consectetur. Fusce adipiscing ornare tincidunt viverra ornare urna ut ut ut.</p>
+                <p>Understand the ebb and flow of your emotional trends over time.</p>
             </div>
         </div>
     )

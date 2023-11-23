@@ -1,0 +1,31 @@
+.box {
+    width: 1000px;
+    height: 98px;
+    border: 8px solid var(--light-periwinkle);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    font-family: var(--font);
+    font-weight: var(--semibold);
+    color: var(--midnight-blue);
+    font-size: 24px;
+    padding: 1rem;
+}
+.date {
+    font-family: var(--font);
+    font-weight: var(--semibold);
+    color: var(--light-midnight);
+    font-size: 24px;
+    padding: 1rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 28rem;
+}
