@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Footer from '@/components/Footer'
 import SignUp from '@/components/SignUp'
 import KeyFeatures from '@/components/KeyFeatures'
+import PressReleases from '@/components/PressReleases'
 
 
 export default function Home() {
@@ -44,7 +45,13 @@ export default function Home() {
           <KeyFeatures />
         </div>
         <div className={styles.press}>
-
+          <div className={styles.headerWithButtonContainer}>
+            <h2 className={styles.featuresTitle}>Press Releases</h2>
+            <button className={styles.button}>View all</button>
+          </div>
+          <div>
+            <PressReleases />
+          </div>
         </div>
         <Footer />
       </main>

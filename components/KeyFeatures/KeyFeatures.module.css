@@ -5,8 +5,9 @@
     border-radius: 36px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
+    padding-top: 5rem;
 }
 .whiteBox {
     width: 175px;
