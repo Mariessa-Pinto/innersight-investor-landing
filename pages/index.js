@@ -1,12 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-
 import Footer from '@/components/Footer'
 import SignUp from '@/components/SignUp'
 import KeyFeatures from '@/components/KeyFeatures'
 import PressReleases from '@/components/PressReleases'
-
 
 export default function Home() {
   return (
